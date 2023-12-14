@@ -46,7 +46,7 @@ require("lazy").setup({
             { "honza/vim-snippets" },
         },
     },
-
+    {'Jorengarenar/COBOl.vim'},
     -- Navigation plugins
     {'nvim-lua/plenary.nvim'},
     { "simrat39/symbols-outline.nvim" },
@@ -55,7 +55,7 @@ require("lazy").setup({
     { "mfussenegger/nvim-dap" },
     { "rcarriga/nvim-dap-ui" },
     { "theHamsta/nvim-dap-virtual-text" },
-
+    
     -- Miscellaneous plugins
     { "mbbill/undotree" },
     { "RaafatTurki/hex.nvim" },
@@ -68,7 +68,6 @@ require("lazy").setup({
             vim.cmd("colorscheme miasma")
         end,
     },
-    {'Jorengarenar/COBOl.vim'},
     {'norcalli/nvim-colorizer.lua'},
 })
 

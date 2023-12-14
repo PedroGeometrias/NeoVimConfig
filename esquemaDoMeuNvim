@@ -1,19 +1,21 @@
 .config/nvim/
-├── init.lua
-├── lua/
-│   ├── pedroArquivos/
-│   │   ├── commands.lua
-│   │   ├── config.lua
-│   │   ├── init.lua
-│   │   ├── lazy.lua
-│   │   ├── options.lua
-│   │   └── remaps.lua
-└── after/
-    └── plugin/
-        ├── colorizer.lua
-        ├── harpoon2.lua
-        ├── lsp.lua
-        ├── luasnip.lua
-        ├── undutree.lua
-        
+        ├── init.lua
+        ├── lua/
+        │   └── pedroArquivos/
+        │       ├── commands.lua
+        │       ├── config.lua
+        │       ├── init.lua
+        │       ├── lazy.lua
+        │       ├── options.lua
+        │       └── remaps.lua
+        └── after/
+            └── plugin/
+                ├── colorizer.lua
+                ├── cmp.lua
+                ├── lsp.lua
+                ├── luasnip.lua
+                ├── undutree.lua
+                └── syntax
+                    ├── lua_syntax.lua
+                    └── C_C++_syntax.lua
 
